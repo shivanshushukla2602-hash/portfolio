@@ -27,6 +27,10 @@
             font-size:12px;
             margin-left:38em;
         }
+        .button{
+            margin-left:12em;
+            margin-top:1em;
+        }
         li a{
             text-decoration:none;
             color:black;
@@ -79,7 +83,7 @@
            border-radius:0.8em;
            margin:0.5em;
            margin-top:1.2em;
-           box-shadow:20px 20px 40px black;
+           box-shadow:25px 25px 50px black;
         }
         .content:hover{
             transform:scale(1.1);
@@ -222,7 +226,7 @@
             animation-iteration-count: infinite;
         }
         #contacts{
-            height:40vh;
+            height:28vh;
             width:100vw;
             background-color:pink;
             margin-top:1.5em;
@@ -232,7 +236,7 @@
         }
         .icons{
             margin-left:1em;
-            margin-top:2em;
+            margin-top:1.2em;
             font-weight:bold;
         }
         .skill ul{
@@ -266,7 +270,7 @@
             height:80vh;
         }
         .technical li , .soft li{
-            color:gray;
+            color:darkgrey;
             box-shadow:15px 15px 30px black;
             font-size:1.3em;
         }
@@ -282,6 +286,7 @@
         }
         .email{
             margin-left:1.5em;
+            margin-top:0.9em;
         }
         .logo{
             font-size:1.5em;
@@ -302,6 +307,6 @@
         }
         .myphoto:hover{
             transform:scale(1.1);
-            transition:0.2s linear;
+            transition:0.4s linear;
             box-shadow:3px 3px 5px pink;
         }
